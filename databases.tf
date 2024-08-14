@@ -8,7 +8,7 @@ module "aws_database_sombrero_qas" {
   db_name                       = "instellardb"
   db_size                       = "db.t3.small"
   db_username                   = "instellar"
-  deletion_protection           = true
+  deletion_protection           = false
   engine                        = "postgres"
   engine_version                = "15"
   identifier                    = "sombrero-qas"
